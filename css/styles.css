@@ -1,0 +1,62 @@
+/* Variables */
+:root{
+    --letra-titulos: 'ZCOOL QingKe HuangYou', cursive;
+    --letra-textos: 'Titillium Web', sans-serif;
+}
+.container-fluid{
+    height: 40vh;
+    padding: 0;
+    overflow: hidden;
+}
+.fondoCabecera{
+    width: 100%;
+    height: auto;
+}
+.mi_foto{
+    width: 160px;
+    height: 160px;
+    margin-top: -80px;
+    border-radius: 50%;
+}
+
+.datos h1{
+    font-family: var(--letra-titulos);
+}
+.datos h5{
+    font-family: var(--letra-textos);
+    color: #7c717b;
+}
+.datos .biografy{
+    color: #9fadb7;
+    font-family: var(--letra-textos);
+}
+.datos .redes_sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.datos .redes_sociales ul{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+.datos .redes_sociales ul li{
+    flex: auto;
+    font-size: 1.5rem;
+}
+.fa-whatsapp{
+    color: #00e676;
+}
+.fa-facebook-square{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #9fadb7;
+}
+.fa-linkedin{
+    color: #076ca0;
+}
+.fa-at{
+    color: #7c717b;
+}
