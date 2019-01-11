@@ -60,7 +60,7 @@
 .fa-at{
     color: #7c717b;
 }
-@media (min-width: 320px){
+@media screen and (min-width: 320px){
     .mi_foto{
         width: 160px;
         height: 160px;
@@ -68,7 +68,7 @@
         border-radius: 50%;
     }
 }
-@media (min-width: 360px){
+@media screen and (min-width: 360px){
     .mi_foto{
         width: 160px;
         height: 160px;
@@ -76,7 +76,7 @@
         border-radius: 50%;
     }
 }
-@media (min-width: 375px){
+@media screen and (min-width: 375px){
     .mi_foto{
         width: 160px;
         height: 160px;
@@ -84,7 +84,7 @@
         border-radius: 50%;
     }
 }
-@media (min-width: 380px){
+@media screen and (min-width: 380px){
     .mi_foto{
         width: 160px;
         height: 160px;
@@ -92,7 +92,7 @@
         border-radius: 50%;
     }
 }
-@media (min-width: 414px){
+@media screen and (min-width: 414px){
     .mi_foto{
         width: 160px;
         height: 160px;
