@@ -15,7 +15,7 @@
 .mi_foto{
     width: 160px;
     height: 160px;
-    margin-top: -125px;
+    margin-top: -150px;
     border-radius: 50%;
 }
 
@@ -60,7 +60,14 @@
 .fa-at{
     color: #7c717b;
 }
-
+@media (min-width: 320px){
+    .mi_foto{
+        width: 160px;
+        height: 160px;
+        margin-top: -125px;
+        border-radius: 50%;
+    }
+}
 @media (min-width: 360px){
     .mi_foto{
         width: 160px;
