@@ -61,6 +61,14 @@
 .fa-at{
     color: #7c717b;
 }
+@media screen and (min-width: 340px){
+    .mi_foto{
+        width: 160px;
+        height: 160px;
+        margin-top: -155px;
+        border-radius: 50%;
+    }
+}
 @media screen and (min-width: 360px){
     .mi_foto{
         width: 160px;
